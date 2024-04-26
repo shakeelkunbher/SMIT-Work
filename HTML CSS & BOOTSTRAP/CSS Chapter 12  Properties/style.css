@@ -1,0 +1,76 @@
+body {
+}
+
+@font-face {               
+  font-family: poppin;
+  src: url(Fonts/Poppins-Light.ttf);
+}
+
+p {
+  color: black;
+  font-family: poppin;
+  font-weight: bolder;
+  font-size: 20px;
+  /* font-style:oblique; */
+  /* text-transform: capitalize; (capitalizes 1st latter of word in line ) */
+  /* text-decoration:line-through; (genrates line inside the text) 
+/* text-decoration:overline; (genrates a line over the text)
+/* letter-spacing: 10px; (for space between latters)
+/* word-spacing: 10px; (for space between words) */
+  /* text-align: justify; (removes space from both sides of text) */
+  /* text-indent:90px ;   (for initial text space)  */
+}
+
+/* 
+p::first-line{        
+color: greenyellow;
+} */
+
+/* 
+p::first-letter{
+text-transform: uppercase;
+font-size: 50px;
+} */
+
+a:link {
+  color: black;
+  text-decoration: none;
+font-size: 40px;
+margin-left: 30px;
+}
+
+a:visited {
+   color:orangered;    /*(it used when Link is visited) */
+  font-size: larger;
+}
+
+
+
+a:active {     color: darkcyan;
+}
+ 
+/* (when a button is being pressed or a link being clicked. ) */ 
+
+button:active{
+    background-color: red;     
+    }
+
+
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  color:red;
+  /* text-shadow: 2px(for right side) 2px(for Bottom) 7px(for Blur) #111111(Colour) ; (positive value for "right & bottom") */
+  /* text-shadow: -2px(For Left Side) -2px(For Top) 7px #111111(Colour) ; (Naggative vlaue for "right and top") */
+
+  background-color: rgba(1, 10, 3, 0.5)      /* (rgba here "a"(alfa) used as opacity of background) */
+
+}
+
+
+input:focus{           /*(focus occurs when you move your cursior in input) */
+background-color: orange;
+color: white;
+}
+

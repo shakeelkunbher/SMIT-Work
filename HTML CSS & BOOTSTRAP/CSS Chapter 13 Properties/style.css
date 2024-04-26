@@ -1,0 +1,31 @@
+.box {
+  background-color: rgb(20, 100, 10);
+  margin: 50px auto; /* (for align center of div) */
+  width: 300px;
+  height: 300px;
+
+  /* border-radius: 150px;               (used half value of width and height for proper cercal)   */
+
+  /* (max-width & min-width used for making contant responsiv for any screen)
+max-width: 700px;
+min-height: 300px; */
+
+  /* overflow y:scroll;       (this property used for a scroll bar verticaly if text is being overflow from the div "use overflow x for horizontal scroll bar")  */
+}
+
+
+p{
+text-align:justify;
+padding:10px;
+text-indent: 100px;
+
+}
+
+
+
+ul>li {
+ display: inline-block;               /*(block level elements transform into inline element) */
+padding: 0px 10px 0px 0px;
+
+}
+

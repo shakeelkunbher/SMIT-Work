@@ -1,0 +1,54 @@
+.main{
+width: 650px;
+height:auto;
+background-color: white;
+border: 2px solid black;
+margin:  50px auto;
+position:relative;         /*(contant move in main div freely after using position relative )*/
+}
+
+.box1{
+width: 100px;
+height: 100px;
+background-color: blue;
+position:absolute;
+bottom:0px;
+right: 0px;
+}
+
+
+
+
+
+.input1{
+position: absolute;
+margin: 0px auto;
+background-color: red;
+width: 336px;
+height: 46px;
+left:160px;
+top: 30px;
+
+}
+
+.input1 img{
+position: absolute;
+width: 30px;
+left: 0px;
+top: 5px;
+}
+
+input{
+width: 300px;
+height: 40px;
+padding-left: 30px;
+float: auto;
+/* clear: both;(float property)                   (used for removing float items flow on) */
+
+}
+
+
+
+input:focus{
+outline:1px solid green;             /* (it used for removing or adding focus in input field)  */
+}
