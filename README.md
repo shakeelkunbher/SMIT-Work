@@ -1,2 +1,2 @@
-# JavaScript
-Java Script exersizes
+# SMIT Work
+All Work Which sir Tought in regular Classes
